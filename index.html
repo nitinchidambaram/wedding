@@ -1,11 +1,197 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Wedding Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lida & Nitin | Wedding</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>It works.</h1>
-  <p>If you can see this, GitHub Pages is set up correctly.</p>
+
+  <div id="lock" class="lock">
+  <div class="lock-card">
+    <h1>Lida & Nitin</h1>
+    <p>Please enter the password to view details.</p>
+    <input id="pw" type="password" placeholder="Password" />
+    <button id="go" class="button" type="button">Enter</button>
+    <p id="err" class="error" style="display:none;">Wrong password.</p>
+  </div>
+</div>
+
+<div id="site" style="display:none;">
+  
+
+<header>
+  <div class="logo">Lida & Nitin</div>
+  <nav>
+    <a href="#details">Details</a>
+    <a href="#photos">Photos</a>
+    <a href="#travel">Travel</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#rsvp" class="nav-button">RSVP</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Lida & Nitin</h1>
+    <p class="tagline">We're getting married!</p>
+    <p class="date">Saturday, June 6, 2026</p>
+    <p class="location">Krčkovice · Czech Republic</p>
+    <a href="#rsvp" class="button">Join Us</a>
+  </div>
+</section>
+
+<section id="details">
+  <h2>When and where?</h2>
+
+  <div class="details-grid">
+
+    <div class="details-text">
+      <p><strong>Date:</strong> Saturday, June 6, 2026</p>
+      <p><strong>Location:</strong> Krčkovice, Czech Republic</p>
+    </div>
+
+    <div class="details-map">
+      <iframe style="border:none" src="https://mapy.com/s/polusabuho" width="400" height="280" frameborder="0"></iframe>
+    </div>
+
+  </div>
+</section>
+
+<section id="travel">
+  <h2>Getting here</h2>
+  <p>Krčkovice is located in the Czech countryside about an hour from Prague, close to some sandstone towers of course :) The venue is a lovely campsite in a forest, close to a lake and nearby climbing. </p>
+  <p>If you're flying/taking a train from outside the Czech Republic, it's probably best to get to Prague first. Krčkovice is roughly an hour and half driving from Prague. If you won't have a car, let us know and we'll put you in touch with some of our friends who can give you a ride (in exchange for a beer or two ;)).</p>
+</section>
+
+<section id="more-info">
+  <h2>A Bit More Info</h2>
+
+  <div class="more-info-grid">
+
+    <div>
+      <h3>Dates</h3>
+      <p>Our wedding celebration will happen on Saturday, June 6. We'll have the venue from Thursday evening (June 4) until Monday morning (June 8). The official ceremony (i.e. doing paperwork at the town hall) is planned for Friday. 
+
+      You're welcome to join us for as long as we have the venue (but please note that we won't have food/drinks for everyone except on Saturday). The plan is to go climbing somewhere nearby on Sunday if the weather is good and spirits are high :) </p>
+    </div>
+
+    <div>
+      <h3>After the wedding</h3>
+      <p>On Monday, we plan to drive to Adršpach and spend a few days there climbing. You're more than welcome to join us for some climbing. The sandstone towers there are huge and the climbing is pretty adventurous! Absolutely worth going there as a climber if you've never been. </p>
+    </div>
+
+    <div>
+      <h3>Accommodation</h3>
+      <p>Krčkovice is a charming little village, which unfortunately means that there aren't a ton of options for sleeping. The campsite has tents which you can sleep in (bring a sleeping bag if you plan to do that). Alternatively, there's room at the venue to put up your own tent or sleep in your car.
+
+      If you'd rather not camp, there is a <a href="https://www.ceskehory.cz/ubytovani/pension-polepsovna-krckovice.html" target="_blank" rel="noopener"> B&amp;B</a> nearby and <a href = "https://www.ekempy.cz/liberecky-kraj/semily/677-rekreacni-centrum-certoryje-turnov" target="_blank" rel="noopener"> three cottages as part of a nearby campsite </a>. Please let us know in the RSVP form if you'd like us to reserve one of those options for you.
+</p>
+    </p>
+    </div>
+
+    <div>
+      <h3>Weather</h3>
+      <p>The weather should be pleasant during the day in June, but the evenings might get chilly. Bring some warm clothes for the evening/night. A rain jacket may come in handy as well (although we certainly hope not!) </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="photos">
+  <h2>Our Journey So Far</h2>
+  <div class="photos">
+    <img src="photo1.jpg" alt="">
+    <img src="photo2.jpg" alt="">
+    <img src="photo3.jpg" alt="">
+    <img src="photo4.jpg" alt="">
+    <img src="photo5.jpg" alt="">
+    <img src="photo6.jpg" alt="">
+    <img src="photo7.jpg" alt="">
+    <img src="photo8.jpg" alt="">
+    <img src="photo9.jpeg" style="object-position: center right;" alt="">
+    <img src="photo10.jpg" style="object-position: center ;" alt="">
+    <img src="photo11.jpg" alt="">
+    <img src="photo12.jpg" style="object-position:  center right ;" alt="">
+  </div>
+</section>
+
+
+
+<section id="timeline">
+  <h2>Wedding Day Timeline</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <strong>To be announced</strong>
+    </div>
+  </div>
+
+</section>
+
+<!--
+ <section id="gifts">
+  <h2>Gifts</h2>
+      <p>
+      Joining us on our wedding day is the best gift we could ask for. If you would like to contribute to our honeymoon fund, here are our bank deets:
+        </p>
+</section>
+-->
+
+<section id="rsvp">
+  <h2>Join us</h2>
+  <p>Please let us know if you'll be celebrating with us.</p>
+  <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdA4PJGtJxUjKjBpYP5wlwI1ogMLJkbArZvUaCOoTgJMEuvyA/viewform?usp=dialog" target="_blank">
+    RSVP Here
+  </a>
+</section>
+
+<footer>
+  See you on June 6!
+</footer>
+
+</div>
+
+
+<script>
+  // NOT secure. Anyone can bypass by viewing source.
+  // This is only to keep the page from being casually indexed/shared.
+  const EXPECTED_HASH = "c9b14c8971c30e3b2a8b82dbd23a356f16b008907c2af8b6e73227ee759d1ad4"; // sha256("NL2026")
+
+
+  async function sha256(text) {
+    const data = new TextEncoder().encode(text);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(hashBuffer)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  async function unlock() {
+    const pw = document.getElementById("pw").value || "";
+    const h = await sha256(pw);
+    const ok = (h === EXPECTED_HASH);
+    document.getElementById("err").style.display = ok ? "none" : "block";
+    if (ok) {
+      localStorage.setItem("wedding_unlocked", "1");
+      document.getElementById("lock").style.display = "none";
+      document.getElementById("site").style.display = "block";
+    }
+  }
+
+  document.getElementById("go").addEventListener("click", unlock);
+  document.getElementById("pw").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") unlock();
+  });
+
+  // Keep unlocked state
+  if (localStorage.getItem("wedding_unlocked") === "1") {
+    document.getElementById("lock").style.display = "none";
+    document.getElementById("site").style.display = "block";
+  }
+</script>
+
 </body>
 </html>

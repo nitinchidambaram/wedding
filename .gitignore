@@ -1,0 +1,15 @@
+# Ignore all .log files
+*.log
+*.aux
+*.bbl
+*.blg
+*.brf
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.pdf.autosave.ipe
+*.DS_Store
+main.pdf
+
