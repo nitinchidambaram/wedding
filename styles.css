@@ -67,7 +67,7 @@ nav a {
   height: 100vh;
   background:
     linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.75)),
-    url("background.jpg");
+    url("background1.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
